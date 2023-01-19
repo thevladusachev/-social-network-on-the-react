@@ -12,3 +12,7 @@
 .app-wrapper-content {
 	grid-area: c;
 }
+
+.content {
+	height: 100%;
+}
