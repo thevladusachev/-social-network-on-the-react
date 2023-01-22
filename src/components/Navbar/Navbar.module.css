@@ -1,3 +1,18 @@
 .nav {
+	display: flex;
+	flex-direction: column;
 	grid-area: n;
+	padding: 20px;
+	background-color: rgb(251, 202, 202);
+	gap: 10px;
+}
+
+.item {
+	color: black;
+	text-decoration: none;
+}
+
+.active {
+	color: rgb(225, 42, 42);
+	text-decoration: none;
 }
