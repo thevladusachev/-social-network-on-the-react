@@ -1,11 +1,14 @@
 .header {
+	position: relative;
 	grid-area: h;
-	background-color: rgb(251, 202, 202);
-	padding: 10px;
-	border-radius: 10px;
+	background-color: rgb(42, 95, 251);
+	height: 80px;
 }
 
 .header img {
+	position: absolute;
 	width: 50px;
-	margin-left: 20px;
+	left: 20px;
+	top: 15px;
+
 }
