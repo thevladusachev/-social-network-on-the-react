@@ -4,7 +4,7 @@ import s from './Header.module.css';
 const Header = (props) => {
 	return (
 		<header className={s.header}>
-			<img src="https://logodownload.org/wp-content/uploads/2017/04/facebook-messenger-logo-1-1.png" alt="logo"></img>
+			<img src="https://www.vhv.rs/file/max/31/318855_website-logo-png.png" alt="logo"></img>
 		</header>
 	);
 }
