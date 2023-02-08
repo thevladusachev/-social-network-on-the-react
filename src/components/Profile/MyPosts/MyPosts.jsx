@@ -4,21 +4,18 @@ import s from './MyPosts.module.css';
 
 const MyPosts = (props) => {
 
-	let postsData = [
-		{ id: 1, message: 'Hey!!!', likeCount: 56 },
-		{ id: 2, message: 'Hello my friend)', likeCount: 479 }
-	];
+	let postsElements =
+		props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} />);
 
 	return (
 		<div>
 			<h3>My posts</h3>
 			<div>
-				<div><textarea name="" id="" cols="30" rows="2"></textarea></div>
+				<div><textarea></textarea></div>
 				<div><button>Add post</button></div>
 			</div>
 			<div className={s.posts}>
-				<Post message={postsData[0].message} likesCount={postsData[0].likeCount} />
-				<Post message={postsData[1].message} likesCount={postsData[1].likeCount} />
+				{postsElements}
 			</div>
 		</div>
 	);
